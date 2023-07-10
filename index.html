@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script async src="docs.opencv.org_4.x_opencv.js" onload="openCV_ready()"></script>
+
+
+</head>
+<body>
+    <!-- everything will be under this main page -->
+    <div class ="main-page"> 
+        <!-- --------SIDE LINE--------- -->
+        <div class ="side-line"></div>
+        <!-- --------SIDE BAR--------- -->
+        <div class ="side-bar"> 
+            <span class="material-symbols-outlined" id="button-rgb"  style="color: black; font-size:50px ;align-items: center;">palette</span>
+            <span class="material-symbols-outlined" id="button-gray"   style="color: black; font-size:50px ;align-items: center;">contrast</span>
+            <span class="material-symbols-outlined" id="button-blur"   style="color: black; font-size:50px ;align-items: center;">blur_on</span>
+            <span class="material-symbols-outlined" id="button-canny"   style="color:black; font-size:50px ;align-items: center;">grade</span>
+            <span class="material-symbols-outlined " style="color: black; font-size:50px ;align-items: center;">videocam</span>
+        </div>
+       <!-- --------RIGHT PANEL--------- -->
+        <div class ="right-panel">
+            <!-- --------HEADER--------- -->
+            <div class="header">
+                <div class="empty"></div>
+                <h1 style="font-style: italic;">PHOTOSHOP</h1>
+                <h1 style="font-style: italic;">RUCHIT KOTHARI</h1>
+            </div>
+            <!-- --------TABLET CONTAINER--------- -->
+            <div class="tablet-container">
+                <img src="tablet.png" alt="tablet" width="1050" height="780">
+                <canvas id="main-canvas" width="960" height="720"><img id="main-img" src="226908.jpg" width="960" height="720" style="border-image: round;"></canvas>
+            </div>
+        </div>
+         
+
+    </div>  
+    
+
+
+      <script src="index.js"></script>
+</body>
+</html>
